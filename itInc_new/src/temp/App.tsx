@@ -1,5 +1,5 @@
 import './App.css'
-import {TodolistItem} from '../TodolistItem.tsx';
+import {TodolistItem} from '../../TodolistItem.tsx';
 import {useState} from 'react';
 
 export type TaskType = {

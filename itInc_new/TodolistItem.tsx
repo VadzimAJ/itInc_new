@@ -1,5 +1,5 @@
-import {FilterValues, TaskType} from './src/App.tsx';
-import { Button } from "./src/Button.tsx";
+import {FilterValues, TaskType} from './src/temp/App.tsx';
+import { Button } from "./src/temp/Button.tsx";
 
 type Props = {
     title: string,
