@@ -1,4 +1,5 @@
-import {Task} from '../repCash/App.tsx';
+import {Task} from './App.tsx';
+import { Button } from './Button.tsx';
 
 type Todolist = {
     title: string
@@ -26,9 +27,9 @@ export const TodoListItem = (props: Todolist) => {
                 }
             </ul>
             <div>
-                <button>All</button>
-                <button>Active</button>
-                <button>Completed</button>
+                <Button title='All' callBack={()=>{alert('All')}} />
+                <Button title='Active' callBack={()=>{alert('Active')}} />
+                <Button title='Completed' callBack={()=>{alert('Completed')}} />
             </div>
         </div>
     )
